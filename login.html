@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="lig=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form method="post" class="for">
+            <input type="text" id="user" name="Username" placeholder="Ingrese usuario" required="required" />
+            <input type="password" id="pas" name="Password" placeholder="Ingrese contraseña" required="required" />
+            <button type="submit" class="btn" id="btn" onclick="guardarDatos()" >enviar</button>
+            <button type="submit" class="btn" id="btn" onclick="recuperarDatos()">recuperar</button>
+        </form>
+    </div>
+    <p id="datos" style="color:red;"></p>
+    <script src="js/login.js"></script>
+
+
+</body>
+</html>
